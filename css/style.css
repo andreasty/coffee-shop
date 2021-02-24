@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    font-size: 2em;
+    color: #333;
+}
+
+.primary-nav {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+ }
+
+.shrink a {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;       
+}
+
+.shrink {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    min-height: 65px !important;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 41px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 41px -25px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 41px -25px rgba(0,0,0,0.75);
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/Drink/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.masthead img {
+    width: 80%;
+}
+
+.bg-about {
+    width: 100%;
+    margin-top: 7rem;
+    background-color: ;
+}
+
+.text-about {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    margin: 9rem 0;
+}
+
+.image-about {
+    width: 100%;
+}
+
+.image-about img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;    
+}
+
+.my_button {
+    width: 183px;
+    background: #C7B198;
+    border: none;
+    height: 3rem
+}
+
+.my_button a {
+    color: #fff ;
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.title_ {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.bg-menu {
+    margin-top: 10rem;
+    width: 100%;
+    min-height: 450px;
+}
+
+.card-menu {
+    height: 300px;
+    margin: 3rem 0;
+}
+
+.card-menu img {
+    width: 100%;
+    height: 350px;
+}
+
+.card-menu p {
+    text-align: center;
+}
+
+.product-holder {
+    position: relative;
+    display: block;
+}
+
+.quotes-image {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+.fh5co-about-us {
+    padding: 150px 0;
+  }
+  .fh5co-about-us h2 {
+    margin-left: 20px;
+  }
+  .fh5co-about-us p {
+    margin: 35px 0;
+  }
+  .fh5co-about-us .owl-carousel1 {
+    margin-left: 40px;
+    margin-top: -80px;
+    width: 480px;
+  }
+  .fh5co-about-us .owl-carousel1 .owl-nav {
+    display: none;
+  }
+  .fh5co-about-us .owl-carousel1 .owl-dots {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -60px;
+  }
+  .fh5co-about-us .owl-carousel1 .owl-dots span {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: block;
+    background: #ffffff;
+    margin: 0 5px;
+  }
+  .fh5co-about-us .owl-carousel1 .owl-dots .active {
+    box-shadow: none;
+  }
+  .fh5co-about-us .owl-carousel1 .owl-dots .active span {
+    box-shadow: none;
+    margin-bottom: -1px;
+  }
+  @media (max-width: 1199px) {
+    .fh5co-about-us .owl-carousel1 {
+      width: 350px;
+      margin-top: 0px;
+    }
+  }
+  @media (max-width: 991px) {
+    .fh5co-about-us .col-lg-4 {
+      margin-bottom: 100px;
+    }
+    .fh5co-about-us .owl-carousel1 {
+      margin-top: -70px;
+    }
+  }
+  @media (max-width: 450px) {
+    .fh5co-about-us .owl-carousel1 {
+      width: 100%;
+      margin: 0;
+      padding: 30px;
+      margin-top: -100px;
+    }
+  }
+  
+  .about-us-content {
+    box-shadow: 0px 34px 57px 0px rgba(0, 0, 0, 0.04);
+    background: #ffffff;
+    position: absolute;
+    padding-left: 100px;
+    margin-left: -28px;
+    z-index: 5;
+    padding: 50px 100px;
+    padding-right: 120px;
+  }
+  @media (max-width: 1199px) {
+    .about-us-content {
+      margin-left: -18px;
+      padding: 20px 30px;
+    }
+  }
+  @media (max-width: 991px) {
+    .about-us-content {
+      position: relative;
+      margin-left: 0;
+      padding: 20px 30px;
+    }
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
